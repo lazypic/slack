@@ -11,6 +11,17 @@ Slack자체를 그대로 사용가능하지만 조금더 커스터마이징 하�
 - https://api.slack.com/apps
 - https://api.slack.com/apps/AEGKLE3T3/incoming-webhooks?success=1
 
+```
+$ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, Slack!"}' https://hooks.slack.com/service/{token}/{token}/{token}
+```
+
+지원하는 data의 키는 아래와 같습니다.
+- text(필수) : 내용
+- username : bot이름
+- icon_url : 아이콘경로
+- icon_emoji : bot의 아이콘을 이모티콘으로 사용할 때 사용함. icon_url 또는 icon_emoji 둘중 하나를 사용합니다.
+- channel : 채널 Override
+
 ## Slack <-> Github
 - https://lazypic.slack.com/apps/A8GBNUWU8-github
 
