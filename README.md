@@ -18,7 +18,7 @@ Slack을 사용하는 이유는 방해금지 시간을 자유롭게 설정할 �
 관리자 설정페이지 : https://lazypic.slack.com/customize
 
 ## Apps 추가 및 Webhook 활성화
-채팅 채널에 자동으로 메시지를 전송하기 위해서 사용합니다. webhook 토큰을 알고 싶다면 admin@lazypic.org로 메일주세요.
+채팅 채널에 자동으로 메시지를 전송하기 위해서 사용합니다. webhook 토큰을 알고 싶다면 [admin@lazypic.org](mailto:admin@lazypic.org)로 메일주세요.
 
 - https://api.slack.com/apps
 - https://api.slack.com/apps/AEGKLE3T3/incoming-webhooks?success=1
