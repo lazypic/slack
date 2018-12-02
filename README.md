@@ -8,5 +8,8 @@ Lazypic Slack 셋팅 리포지터리입니다.
 - https://api.slack.com/apps
 - https://api.slack.com/apps/AEGKLE3T3/incoming-webhooks?success=1
 
+## Slack <-> Github
+- https://lazypic.slack.com/apps/A8GBNUWU8-github
+
 ## Reference
 - https://api.slack.com/tutorials/slack-apps-hello-world
