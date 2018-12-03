@@ -23,6 +23,7 @@ Slack의 Webhook 기능을 이용해서 다른 툴에서 채팅방으로 정보�
 
 - https://api.slack.com/apps/AEGKLE3T3/incoming-webhooks?success=1
 
+curl을 이용해서 slack에 메시지를 보내는 예제이며, 각 channel마다 다른 token이 부여됩니다.
 ```
 $ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, Slack!"}' https://hooks.slack.com/service/{token}/{token}/{token}
 ```
