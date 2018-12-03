@@ -17,10 +17,10 @@ Slack을 사용하는 이유는 방해금지 시간을 자유롭게 설정할 �
 ## 채널설정
 관리자 설정페이지 : https://lazypic.slack.com/customize
 
-## Apps 추가 및 Webhook 활성화
-채팅 채널에 자동으로 메시지를 전송하기 위해서 사용합니다. webhook 토큰을 알고 싶다면 [admin@lazypic.org](mailto:admin@lazypic.org)로 메일주세요.
+## 개발툴과 Slack 연결하기
+Slack의 Webhook 기능을 이용해서 다른 툴에서 채팅방으로 정보전달이 가능합니다.
+여러분이 만든 프로그램과 Slack이 연동되어야 한다면, Webhook 토큰이 필요해요. Webhook 토큰을 알고 싶다면 [admin@lazypic.org](mailto:admin@lazypic.org)로 메일주세요.
 
-- https://api.slack.com/apps
 - https://api.slack.com/apps/AEGKLE3T3/incoming-webhooks?success=1
 
 ```
@@ -34,8 +34,9 @@ $ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, Slack
 - icon_emoji : bot의 아이콘을 이모티콘으로 사용할 때 사용함. icon_url 또는 icon_emoji 둘중 하나를 사용합니다.
 - channel : 채널 Override
 
-## Slack <-> Github
+## Slack과 Github의 연결
 - https://lazypic.slack.com/apps/A8GBNUWU8-github
 
 ## Reference
 - https://api.slack.com/tutorials/slack-apps-hello-world
+- https://api.slack.com/apps
