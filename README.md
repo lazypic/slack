@@ -20,6 +20,9 @@ Slack을 사용하는 이유는 방해금지 시간, 기타툴의 연동등을 �
 ## 채널설정
 관리자 설정페이지 : https://lazypic.slack.com/customize
 
+## New Respose 설정
+https://lazypic.slack.com/customize/slackbot
+
 ## 개발툴과 Slack 연결하기
 Slack의 Webhook 기능을 이용해서 다른 툴에서 채팅방으로 정보전달이 가능합니다.
 여러분이 만든 프로그램과 Slack 채널이 연동되어야 한다면, Webhook 토큰이 필요합니다.
