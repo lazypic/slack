@@ -1,10 +1,13 @@
 # Slack
 Lazypic은 채팅 솔루션으로 Slack을 사용합니다.
-Slack자체를 그대로 사용가능하지만 조금더 커스터마이징 하기위해서
-셋팅하는 방법을 다루는 리포지터를 생성하였습니다.
+
+채널 : https://lazypic.slack.com
+
+Slack자체로도 훌륭하지만 조금더 커스터마이징 하기위해서
+그룹을 위해서 셋팅하는 방법을 다루는 리포지터를 추가합니다.
 
 ## 방해금지모드 사용법
-Slack을 사용하는 이유는 방해금지 시간을 자유롭게 설정할 수 있기 때문입니다.
+Slack을 사용하는 이유는 방해금지 시간, 기타툴의 연동등을 자유롭게 설정할 수 있기 때문입니다.
 취침시간, 휴식시간등 자유롭게 설정하고 사용하세요.
 
 ![slack_setting01](https://user-images.githubusercontent.com/1149996/49338806-974a5f00-f66a-11e8-8df2-7acd35f808da.png)
@@ -19,10 +22,14 @@ Slack을 사용하는 이유는 방해금지 시간을 자유롭게 설정할 �
 
 ## 개발툴과 Slack 연결하기
 Slack의 Webhook 기능을 이용해서 다른 툴에서 채팅방으로 정보전달이 가능합니다.
-여러분이 만든 프로그램과 Slack이 연동되어야 한다면, Webhook 토큰이 필요해요. Webhook 토큰을 알고 싶다면 [admin@lazypic.org](mailto:admin@lazypic.org)로 메일주세요.
+여러분이 만든 프로그램과 Slack 채널이 연동되어야 한다면, Webhook 토큰이 필요합니다.
+Webhook 토큰을 알고 싶다면 [admin@lazypic.org](mailto:admin@lazypic.org)로 메일주세요.
+이미 슬렉채널에 가입되어있다면 `webhook` 이라고 채팅창에 타이핑하면 Webhook 토큰을 Slackbot이 알려줍니다.
 
-- https://api.slack.com/apps/AEGKLE3T3/incoming-webhooks?success=1
+- Webhook 설정페이지 : https://api.slack.com/apps/AEGKLE3T3/incoming-webhooks?success=1
 
+
+#### Webhook + curl을 이용한 메시지 전송
 curl을 이용해서 slack에 메시지를 보내는 예제이며, 각 channel마다 다른 token이 부여됩니다.
 ```
 $ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, Slack!"}' https://hooks.slack.com/service/{token}/{token}/{token}
