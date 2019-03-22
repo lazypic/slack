@@ -3,6 +3,13 @@ Lazypic은 채팅 솔루션으로 Slack을 사용합니다.
 
 채널 : https://lazypic.slack.com
 
+## Channel name
+Slack channel names must be the same name as github repositories.
+
+example
+- https://github.com/lazypic/circle
+- slack channel name : #circle
+
 ## 보안이슈
 보안이 중요한 프로젝트는 별도의 채널을 만들고 진행합니다.
 
