@@ -10,6 +10,13 @@ example
 - https://github.com/lazypic/circle
 - slack channel name : #circle
 
+## 화상채팅
+채널에서 아래처럼 타이핑합니다.
+
+```
+/hangout
+```
+
 ## 보안이슈
 보안이 중요한 프로젝트는 별도의 채널을 만들고 진행합니다.
 
