@@ -22,6 +22,8 @@ https://lazypic.slack.com/admin
 /hangout
 ```
 
+hangout 채널이 만들어집니다. 이후 만들어진 Share 코드를 slack 채팅방에 붙혀넣습니다.
+
 ## 보안이슈
 보안이 중요한 프로젝트는 별도의 채널을 만들고 진행합니다.
 
