@@ -25,7 +25,7 @@ https://lazypic.slack.com/admin
 hangout 채널이 만들어집니다. 이후 만들어진 Share 코드를 slack 채팅방에 붙혀넣습니다.
 
 ## 프로젝트 달력 셋팅
-프로젝트가 생성되면 프로젝트명으로 달력이 생성됩니다.
+프로젝트가 생성되면 프로젝트명으로 달력을 생성합니다.
 
 https://lazypic.slack.com/services/gcalendar
 
