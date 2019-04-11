@@ -80,7 +80,7 @@ $ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, Slack
 - https://lazypic.slack.com/apps/A8GBNUWU8-github
 - github apps 설치이후 github 채널에서 아래처럼 타이핑합니다.
 ```
-/github subscribe lazypic/repositoryName
+/github subscribe lazypic/projectname
 ```
 
 ## Reference
