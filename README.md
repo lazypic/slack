@@ -11,7 +11,7 @@ example
 - slack channel name : #circle
 
 ## Admin메뉴
-Primary Owner가 최고 권한이며, 보통 맴버를 관리할 때 사용합니다.
+Primary Owner가 최고 권한이며, 1명입니다. 맴버를 관리할 때 사용합니다.
 
 https://lazypic.slack.com/admin
 
