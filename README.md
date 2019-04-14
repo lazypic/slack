@@ -15,6 +15,9 @@ Primary Owner가 최고 권한이며, 보통 맴버를 관리할 때 사용합�
 
 https://lazypic.slack.com/admin
 
+## Travis CI
+- Setting : https://lazypic.slack.com/apps/A0F81FP4N-travis-ci?next_id=0
+
 ## 화상채팅
 채널에서 아래처럼 타이핑합니다.
 
