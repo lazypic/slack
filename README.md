@@ -52,7 +52,7 @@ Slack을 사용하는 이유는 방해금지 시간, 기타툴의 연동등을 �
 
 주말동안 방해받지 않기 위해, 주말간 알람을 꺼주세요.
 
-![weekend](images/weekend.png)
+![weekend](figures/weekend.png)
 
 ## 채널설정
 관리자 설정페이지 : https://lazypic.slack.com/customize
